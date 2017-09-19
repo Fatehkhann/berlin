@@ -8,6 +8,7 @@ const cors = require('cors');
 // const authentication = require('./middleware/auth_middleware');
 
 const app = express();
+app.use(express.static(__dirname + '/public'));
 // Parse body coming along with req
 app.use(bodyParser.json());
 
@@ -25,7 +26,6 @@ app.use((req, res, next) => {
   next();
 })
 
-app.use(express.static(__dirname + '/public'));
 
 
 
