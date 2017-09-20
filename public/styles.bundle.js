@@ -1,9 +1,9 @@
 webpackJsonp([3],{
 
-/***/ "../../../../../src/assets/cloud.jpg":
+/***/ "../../../../../src/assets/cloud2.jpg":
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "cloud.fa40c0bc491900e1c1c5.jpg";
+module.exports = __webpack_require__.p + "cloud2.d39f8af78ba9ed793494.jpg";
 
 /***/ }),
 
@@ -42,7 +42,7 @@ exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-b
 
 
 // module
-exports.push([module.i, "/* You can add global styles to this file, and also import other style files */\nhtml {\n    font-family: 'Quicksand', sans-serif;\n}\n\nbody { \n\n      background: url(" + __webpack_require__("../../../../../src/assets/cloud.jpg") + ") no-repeat center center fixed;\n  background-size: cover;\n}\n", ""]);
+exports.push([module.i, "/* You can add global styles to this file, and also import other style files */\nhtml {\n    font-family: 'Quicksand', sans-serif;\n}\n\nbody { \n\nbackground: url(" + __webpack_require__("../../../../../src/assets/cloud2.jpg") + ") no-repeat center center fixed;\n  background-size: cover;\n}\n", ""]);
 
 // exports
 
