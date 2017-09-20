@@ -3,7 +3,7 @@ const http = require('http');
 const app = require('./app');
 
 var server = http.createServer(app);
-var port = process.env.port || 3000;
+var port = process.env.PORT || 3000;
 
 ///////////////////////
 // Start Express App
